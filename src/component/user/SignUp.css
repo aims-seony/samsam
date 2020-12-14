@@ -1,0 +1,17 @@
+.SignUpArea{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  margin-top: -210px;
+  margin-left: -240px;
+}
+.signup-form{
+    width: 440px;
+    height: 380px;
+
+}
+.signUpText{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.goLogin{float: right;margin-top: 10px;}
