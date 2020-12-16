@@ -1,0 +1,25 @@
+.textArea{border:1px solid #ccc; border-radius: 10px; width: 100%;padding: 10px; resize: none; height: 400px;}
+.writeBtn{width: 130px;height: 35px;margin: 20px 0 0 calc(50% - 75px);color: #fff;background: #1890ff; border:none;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);cursor: pointer;}
+.writeBtn:active, .writeBtn:focus {outline: 0;}
+
+.react-tag-input {
+    background: 1890ff;
+    color: #fff;
+    border: 1px solid #e1e1e1;
+  }
+  .react-tag-input__input {
+    background: transparent;
+    color: #666;
+  }
+  .react-tag-input__input::placeholder, .react-tag-input__input:-moz-placeholder, .react-tag-input__input:-ms-input-placeholder, .react-tag-input__input::-moz-placeholder, .react-tag-input__input::-webkit-input-placeholder {
+    color: #fff; /* Input placeholder */ 
+  }
+  .react-tag-input__tag {
+    background: #1890ff;
+  }
+  .react-tag-input__tag__remove {
+    background: #2e89df;
+  }
+  .react-tag-input__tag__remove:before, .react-tag-input__tag__remove:after {
+    background: #fff; /* X icon in remove button */
+  }

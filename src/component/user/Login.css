@@ -10,11 +10,8 @@
   .loginText{
     text-align: center;
   }
-  .login-form-forgot {
+  .goFindPassword {
     float: right;
-  }
-  .ant-col-rtl .login-form-forgot {
-    float: left;
   }
   .login-form-button {
     width: 100%;

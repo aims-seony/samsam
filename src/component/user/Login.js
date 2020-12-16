@@ -8,7 +8,7 @@ const Login = () => {
     const onFinish = (values) => {
         console.log('Received values of form: ', values);
       };
-    
+
       return (
         <div className="LoginArea">
             <Form
@@ -21,15 +21,15 @@ const Login = () => {
             >
             <h1 className="loginText">LOGIN</h1>
             <Form.Item
-                name="username"
+                name="phone"
                 rules={[
                 {
                     required: true,
-                    message: 'Please input your Username!',
+                    message: 'Please input your phone number!',
                 },
                 ]}
             >
-                <Input prefix={<UserOutlined className="site-form-item-icon" />} placeholder="Username" />
+                <Input prefix={<UserOutlined className="site-form-item-icon" />} placeholder="Phone Number" />
             </Form.Item>
             <Form.Item
                 name="password"
@@ -50,16 +50,13 @@ const Login = () => {
                 <Form.Item name="remember" valuePropName="checked" noStyle>
                 <Checkbox>Remember me</Checkbox>
                 </Form.Item>
-        
-                <a className="login-form-forgot" href="">
-                Forgot password
-                </a>
+                <Link to="/FindPassword"><p className="goFindPassword">Forgot password?</p></Link>
             </Form.Item>
         
             <Form.Item>
-                <Button type="primary" htmlType="submit" className="login-form-button">
-                Log in
-                </Button>
+                <Link to="/Peed"><Button type="primary" htmlType="submit" className="login-form-button">
+                    Login
+                </Button></Link>
                 <Link to="/SignUp"><p className="goSignUp">register now!</p></Link>
             </Form.Item>
             </Form>
